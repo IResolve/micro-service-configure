@@ -1,0 +1,24 @@
+server: 
+  port: 9000
+spring: 
+  application: 
+    name: users-management-service
+  datasource: 
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost/over
+   
+  jpa:
+    hibernate:
+      ddlAuto: create-drop
+      dialect: org.hibernate.dialect.MySQL5Dialect
+      show-sql: false
+      
+      
+security:
+  basic:
+    enabled: false
+  user:
+    name: root
+    password: root
