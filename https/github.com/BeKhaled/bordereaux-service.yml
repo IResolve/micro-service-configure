@@ -1,5 +1,5 @@
 server: 
-  port: 9000
+  port: 8898
 spring: 
   application: 
     name: bordereaux-service
