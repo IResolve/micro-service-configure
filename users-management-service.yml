@@ -2,7 +2,7 @@ server:
   port: 9000
 spring: 
   application: 
-    name: bulletin-service
+    name: users-management-service
   datasource: 
     driverClassName: com.mysql.jdbc.Driver
     username: root
