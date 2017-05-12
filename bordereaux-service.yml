@@ -22,3 +22,10 @@ security:
   user:
     name: root
     password: root
+Access-Control-Allow-Credentials: true
+
+Access-Control-Allow-Origin: http://localhost:4200
+
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, DELETE
+
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
