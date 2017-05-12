@@ -22,3 +22,10 @@ security:
   user:
     name: root
     password: root
+    
+ stormpath.web.cors.allowed.originUris = http://localhost:4200
+  stormpath:
+    web:
+      cors:
+        allowed: 
+           originUris = http://localhost:4200 
